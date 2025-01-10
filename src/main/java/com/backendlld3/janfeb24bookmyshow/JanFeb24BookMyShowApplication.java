@@ -12,3 +12,13 @@ public class JanFeb24BookMyShowApplication {
     }
 
 }
+// Agenda
+// Completing one functionality of Booking the ticket
+// Basic Sign up flow which will be working
+
+// HW : Complete the book my show functionality by adding data to the db
+
+// created the models
+// created the tables in the db
+
+// Controller(ReqDto) : Response -> Service -> repository

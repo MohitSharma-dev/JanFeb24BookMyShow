@@ -8,6 +8,8 @@ import jakarta.persistence.ManyToOne;
 import lombok.Getter;
 import lombok.Setter;
 
+import java.util.Date;
+
 @Entity
 @Getter
 @Setter
@@ -18,6 +20,7 @@ public class ShowSeat extends BaseModel{
     private Seat seat;
     @Enumerated(value = EnumType.ORDINAL)
     private SeatStatus seatStatus;
+    private Date blockedAt;
 }
 
 // ShowSeat M : 1 Show
