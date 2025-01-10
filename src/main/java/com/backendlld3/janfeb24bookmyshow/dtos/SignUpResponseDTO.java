@@ -5,25 +5,16 @@ import lombok.Setter;
 
 @Getter
 @Setter
-public class BookTicketResponseDTO {
-    private int bookingId;
-    private int amount;
+public class SignUpResponseDTO {
+    private int userId;
     private ResponseStatus responseStatus;
 
-    public int getBookingId() {
-        return bookingId;
+    public int getUserId() {
+        return userId;
     }
 
-    public void setBookingId(int bookingId) {
-        this.bookingId = bookingId;
-    }
-
-    public int getAmount() {
-        return amount;
-    }
-
-    public void setAmount(int amount) {
-        this.amount = amount;
+    public void setUserId(int userId) {
+        this.userId = userId;
     }
 
     public ResponseStatus getResponseStatus() {
@@ -34,4 +25,3 @@ public class BookTicketResponseDTO {
         this.responseStatus = responseStatus;
     }
 }
-
